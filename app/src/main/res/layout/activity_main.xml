@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cards"
+    android:textDirection="rtl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="#ff0000"
+        android:padding="10dp"
+        android:text="@string/milhama"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="#ff0000"
+        android:padding="10dp"
+        android:text="Your max score is:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:id="@+id/topscore"
+        />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120sp"
+        android:background="#ff0000"
+        android:padding="10dp"
+        android:text="התחל משחק"
+        android:textColor="#000"
+        android:textSize="35sp" />
+
+    />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#ff0000"
+        android:padding="10dp"
+        android:text="הוראות המשחק "
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+</LinearLayout>

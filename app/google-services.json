@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825602338096",
+    "firebase_url": "https://newpro-87830.firebaseio.com",
+    "project_id": "newpro-87830",
+    "storage_bucket": "newpro-87830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825602338096:android:fd962a4cabb32f66",
+        "android_client_info": {
+          "package_name": "comr.example.student.romproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825602338096-2nstuf10up46vek8v0n2r4udbda2pa7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comr.example.student.romproject",
+            "certificate_hash": "d3508d03327908e27a802757ae49d2d74a3dc271"
+          }
+        },
+        {
+          "client_id": "825602338096-gmrt660irccl8ppmetbfrand4i82543m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXpvTSt8mIaeSKdDjcqbRGLnTYyuKDqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825602338096-gmrt660irccl8ppmetbfrand4i82543m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

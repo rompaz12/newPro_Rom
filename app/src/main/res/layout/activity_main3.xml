@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="1. The goal is to get as many cards as possible and leave the other players without cards."
+            android:padding="16dp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+android:text="Each player gets his half of the deck of the cards. If two players are playing then each player gets half, if three players are playing then each one gets a thirnd and so on. Each player puts the pack face down."
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+android:text="Each player in turn takes out a card and places it face-up. The player who took the highest card takes all the cards that are opened. Each player in turn takes out a card and places it in the center face up. The player who issued the highest card takes all the cards that were opened.
+"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="If two players take out the same card, for example: player A took out 8 hearts and player B took out 8 cloves. A 'war' situation was created. In such a case, each player places another card face down on top of the card with an open card on top and whoever takes the higher card takes all the cards. You can also play three cards face down instead of just one. In the case of two players and the same card, for example: player A took out 8 hearts and player B issued 8 clover. A situation of war was created. In such a case, each player places another card face down on top of the card with an open card on top and whoever takes the higher card takes all the cards. You can also play three cards face down instead of just one. The player with all the cards in the deck wins."
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="back"
+            android:textSize="20dp"
+            android:textColor="#0b3ee6"
+            android:id="@+id/back2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
